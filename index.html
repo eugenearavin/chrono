@@ -34,7 +34,7 @@
 			</div> -->
 			
 			<ul>
-				<li><img src="img/logo.png" alt=""></li>
+				<li><a href="index.html"><img src="img/logo.png" alt=""></a></li>
 				<li><a href="about.html">О компании</a></li>
 				<li><a href="https://chronopay.com/blog/ru">Новости</a></li>
 				<li><a href="https://chronopay.com/ru/contacts">Контакты</a></li>
@@ -42,7 +42,7 @@
 					<a href="tel:4957803060">+7 495 780 30 60</a>
 				</li>
 				<li class="fat__li-2">
-					<a href="https://chronopay.com/#login-modal">Личный кабинет</a>
+					<a href="https://xclient.chronopay.com/">Личный кабинет</a>
 				</li>
 <!-- 						<li class="fat__lang">
 					<a  class="fat__li-ru" href="#">Russian</a>
@@ -91,7 +91,7 @@
 									<a href="tel:4957803060">+7 495 780 30 60</a>
 								</li>
 								<li class="header__item-right header__item-right-ru-cab">
-									<a href="https://chronopay.com/#login-modal">Личный кабинет</a>
+									<a href="https://xclient.chronopay.com/">Личный кабинет</a>
 								</li>
 <!-- 								<li class="header__item-right header__item-right-ru">
 									<a href="#">Ru</a>
@@ -128,29 +128,31 @@
 									</ul>
 								</div>
 								<div class="btn__container">
-									<div class="btnn animated fadeInUp fast">
-										<a href="https://chronopay.com/ru/connection" class="header__main_left_button1">Начать</a>
+									<div class="btnn btn_2 animated fadeInUp fast">
+										<a href="#form" class="header__main_left_button1 popup">Начать</a>
 										<div class="btnn__glare"></div>
 										<div class="shine"></div>
 									</div>
-									<div class="btn_2 animated fadeInUp fast">
+									<!-- <div class="btn_2 animated fadeInUp fast">
 										<a href="#form" class="header__main_left_button2 popup animated fadeInUp">Связаться</a>
-									</div>
+									</div> -->
 								</div>
 								
 								
 								<div class="hidden">
-									<form id="form" class="form form_style" novalidate>
+									<form id="form" class="form form_style main__form" novalidate>
 										<!-- Hidden Required Fields -->
 										<input type="hidden" name="project_name" value="ChronoPay">
 										<input type="hidden" name="admin_email" value="sales@chronopay.com">
-										<input type="hidden" name="form_subject" value="Заявка с сайта Chrono Pay">
+										<input type="hidden" name="form_subject" value="Заявка с сайта Chrono Pay (Форма заявки)">
 										<!-- END Hidden Required Fields -->
 										<div class="form__title">
 											<p>Позвоните нам по телефону +7 (495) 780 30 60 <br>или оставьте свои контактные данные</p>
 										</div>
-										<input type="text" name="Имя:" value="" class="input form-control" placeholder="Имя" required>
+										<input type="text" name="Имя:" value="" class="input form-control" placeholder="Имя">
+										<input type="text" name="Компания:" value="" class="input form-control" placeholder="Компания" required>
 										<input type="text" name="Телефон:" value="" class="input form-control" placeholder="Телефон" required>
+										<input type="text" name="E-mail:" value="" class="input form-control" placeholder="E-mail" required>
 										<input type="text" name="Ваш сайт:" value="" class="input form-control" placeholder="Ваш сайт" required>
 										<div class="form-check">
 											<label>
@@ -251,7 +253,7 @@
 								</div>
 							</div>
 							<div class="serv__btn">
-								<a href="https://chronopay.com/ru/services/" class="right__button">Все сервисы</a>
+								<a href="services.html" class="right__button">Все сервисы</a>
 							</div>
 						</div>
 					</div>
@@ -278,7 +280,7 @@
 							<div class="connect__container-item">
 								<img src="img/contact__ellipse.svg" alt="">
 								<li class="connect__item_1">
-									Вы заполняете <a href="#">заявку на подключение</a>
+									Вы заполняете <a href="request.html" target="blank">заявку на подключение</a>
 								</li>
 							</div>
 							<div class="connect__container-item">
@@ -373,20 +375,38 @@
 				<div class="w-100"></div>
 				<div class="row">
 					<div class="col-12">
-						<div class="trust__container">
-							<div class="trust__container_text">
-								<h1>Ирина Меньшенина</h1>
-								<h2>Генеральный директор Благотворительного фонда поддержки людей с синдромом Дауна «Синдром любви»</h2>
-								<p>
-									<i>Люди, которые способны услышать, в сердца которых мы смогли достучаться, привыкли совершать покупки в интернете-мы идем к ним! В этом нам очень помогает оператор платежей в интернете, компания Chromopay.</i>
-								</p>
-								<div class="btn_2">
-									<a href="#" class="trust__btn">Читать интервью</a>
+						<div class="trust__slider">
+							<div class="trust__container">
+								<div class="trust__container_text">
+									<h1>Ирина Меньшенина</h1>
+									<h2>Генеральный директор Благотворительного фонда поддержки людей с синдромом Дауна «Синдром любви»</h2>
+									<p>
+										<i>Люди, которые способны услышать, в сердца которых мы смогли достучаться, привыкли совершать покупки в интернете-мы идем к ним! В этом нам очень помогает оператор платежей в интернете, компания Chromopay.</i>
+									</p>
+									<div class="btn_2">
+										<a href="interview-page.html" class="trust__btn">Читать интервью</a>
+									</div>
+								</div>
+								<div class="trust__container_img">
+									<img src="img/trust__img.svg" class="photo__desct" alt="">
+									<img src="img/photo__mobile.svg" style="display: none;" class="photo__mobile" alt="">
 								</div>
 							</div>
-							<div class="trust__container_img">
-								<img src="img/trust__img.svg" class="photo__desct" alt="">
-								<img src="img/photo__mobile.svg" style="display: none;" class="photo__mobile" alt="">
+							<div class="trust__container">
+								<div class="trust__container_text">
+									<h1>Павел Агейченко</h1>
+									<h2>Генеральный директор BaikalNature</h2>
+									<p>
+										<i>Каждый день мы помогаем людям встретиться с природой, а партнер Chronopay — сделать процесс приема платежа от клиента удобным и быстрым!</i>
+									</p>
+									<div class="btn_2">
+										<a href="interview-page.html" class="trust__btn">Читать интервью</a>
+									</div>
+								</div>
+								<div class="trust__container_img">
+									<img src="img/trust_photo-2.png" class="photo__desct" alt="">
+									<img src="img/trust_mobile_2.png" style="display: none;" class="photo__mobile" alt="">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -442,29 +462,29 @@
 						<div class="news__item">
 							<h1>1Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 							<h2>1Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat adipisci, provident laudantium unde nesciunt. Aut, ad?</h2>
-							<a class="news__btn" href="#">Читать в источнике</a>
+							<a class="news__btn" href="news-page.html">Читать в источнике</a>
 						</div>
 						<div class="news__item">
 							<h1>2Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 							<h2>2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat adipisci, provident laudantium unde nesciunt. Aut, ad?</h2>
-							<a class="news__btn" href="#">Читать в источнике</a>
+							<a class="news__btn" href="news-page.html">Читать в источнике</a>
 						</div>
 						<div class="news__item">
 							<h1>3Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 							<h2>3Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat adipisci, provident laudantium unde nesciunt. Aut, ad?</h2>
-							<a class="news__btn" href="#">Читать в источнике</a>
+							<a class="news__btn" href="news-page.html">Читать в источнике</a>
 						</div>
 						<div class="news__item">
 							<h1>4Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
 							<h2>4Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat adipisci, provident laudantium unde nesciunt. Aut, ad?</h2>
-							<a class="news__btn" href="#">Читать в источнике</a>
+							<a class="news__btn" href="news-page.html">Читать в источнике</a>
 						</div>
 					</div>
 				</div>
 				<div class="w-100"></div>
 				<div class="col-12">
 					<div class="news__btn-bottom">
-						<a href="#">Все новости</a>
+						<a href="news.html">Все новости</a>
 					</div>
 				</div>
 			</div>
@@ -612,7 +632,10 @@
 					</ul>
 				</div>
 				<div class="col-sm-12 col-md-6 contacts__flex">
-					<img src="img/contacts__map.svg" alt="">
+					<!-- <img src="img/contacts__map.svg" alt=""> -->
+					<div class="contacts__map">
+						<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac9d05e8fd5b217972b8e66d3e4b6bb046f5a2b4c6bda3ac3431a251a9a80dab1&amp;source=constructor" width="100%" height="506" frameborder="0"></iframe>
+					</div>
 				</div>
 			</div>
 		</div>

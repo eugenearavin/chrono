@@ -19,7 +19,14 @@ function openCity(evt, cityName) {
   evt.currentTarget.className += " active";
 }
 // document.getElementById("defaultOpen_1").click();
-
+$('.trust__slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: false,
+    arrows: false,
+    mobileFirst: true,
+    
+  });
 
   $('.history__slider').slick({
     slidesToShow: 3,
