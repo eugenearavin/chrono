@@ -265,92 +265,119 @@
 	<section class="connect">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 col-lg-5">
+				<div class="col-12">
 					<h1>Как происходит подключение</h1>
 					<div class="connect__tabs-container">
 						<div class="connect__tab">
-							<button class="connect__tablinks" onclick="openCity(event, 'link_1')" id="defaultOpen">1. Заявка</button>
-							<button class="connect__tablinks" onclick="openCity(event, 'link_2')">2. Подключение</button>
-							<button class="connect__tablinks" onclick="openCity(event, 'link_3')">3. Активация</button>
+							<button class="connect__tablinks" onclick="openTab(event, 'link_1')" id="defaultOpen">1. Заявка</button>
+							<button class="connect__tablinks" onclick="openTab(event, 'link_2')">2. Подключение</button>
+							<button class="connect__tablinks" onclick="openTab(event, 'link_3')">3. Активация</button>
 						</div>
 					</div>
 					<!-- Tab content -->
 					<div id="link_1" class="connect__tabcontent tabcontent_1">
-						<ul class="connect__ul_1">
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_1">
-									Вы заполняете <a href="request.html" target="blank">заявку на подключение</a>
-								</li>
+						<div class="contrainer-fluid">
+							<div class="row">
+								<div class="col-md-12 col-lg-5">
+									<ul class="connect__ul_1">
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_1">
+												Вы заполняете <a href="request.html" target="blank">заявку на подключение</a>
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_2">
+												Мы связываемся с вами для уточнения деталей – профиль <br> вашего бизнеса, ваши потребности, коммерческие условия и т.д.
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_3">
+												Вы предоставляете необходимый пакет документов для <br> оформления
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_4">
+												Мы проводим проверку документов и вашего сайта, а также <br> подбираем для вас оптимальные условия обслуживания и банк-партнер
+											</li>
+										</div>
+									</ul>
+								</div>
+								<div class="col-lg-7">
+									<img class="container__mac" src="img/connect__mac.svg" alt="">
+								</div>
 							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_2">
-									Мы связываемся с вами для уточнения деталей – профиль <br> вашего бизнеса, ваши потребности, коммерческие условия и т.д.
-								</li>
-							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_3">
-									Вы предоставляете необходимый пакет документов для <br> оформления
-								</li>
-							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_4">
-									Мы проводим проверку документов и вашего сайта, а также <br> подбираем для вас оптимальные условия обслуживания и банк-партнер
-								</li>
-							</div>
-						</ul>
+						</div>
 					</div>
 
 					<div id="link_2" class="connect__tabcontent">
-						<ul class="connect__ul_1">
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_1">
-									Мы отправляем вам платежную форму для размещения на вашем сайте
-								</li>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12 col-lg-5">
+									<ul class="connect__ul_1">
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_1">
+												Мы отправляем вам платежную форму для размещения на вашем сайте
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_2">
+												Вы производите размещение
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_3">
+												Мы проводим тестирование работоспособности вашей платежной страницы и – ура! – ваш сайт технически готов принимать платежи
+											</li>
+										</div>
+									</ul>
+								</div>
+								<div class="col-lg-7">
+									<img class="container__mac" src="img/connect__mac-2.svg" alt="">
+								</div>
 							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_2">
-									Вы производите размещение
-								</li>
-							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_3">
-									Мы проводим тестирование работоспособности вашей платежной страницы и – ура! – ваш сайт технически готов принимать платежи
-								</li>
-							</div>
-						</ul>
+						</div>
 					</div>
 
 					<div id="link_3" class="connect__tabcontent">
-						<ul class="connect__ul_1">
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_1">
-									После проведения необходимых проверок и технической интеграции, мы заключаем с вами договор и активируем ваш платежный терминал.
-								</li>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12 col-lg-5">
+									<ul class="connect__ul_1">
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_1">
+												После проведения необходимых проверок и технической интеграции, мы заключаем с вами договор и активируем ваш платежный терминал.
+											</li>
+										</div>
+										<div class="connect__container-item">
+											<img src="img/contact__ellipse.svg" alt="">
+											<li class="connect__item_2">
+												С этого момента через ваш сайт начинают поступать платежи от клиентов из любой точки земного шара.
+											</li>
+										</div>
+									</ul>
+								</div>
+								<div class="col-lg-7">
+									<img class="container__mac" src="img/connect__mac-3.svg" alt="">
+								</div>
 							</div>
-							<div class="connect__container-item">
-								<img src="img/contact__ellipse.svg" alt="">
-								<li class="connect__item_2">
-									С этого момента через ваш сайт начинают поступать платежи от клиентов из любой точки земного шара.
-								</li>
-							</div>
-						</ul>
+						</div>
 					</div>
 
 					<div class="serv__btn">
 						<a href="#" class="right__button">Связаться</a>
 					</div>
 				</div>
-				<div class="col-md-12 col-lg-7">
+				<!-- <div class="col-md-12 col-lg-7">
 					<img class="container__mac" src="img/connect__mac.svg" alt="">
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -546,7 +573,7 @@
 				</div>
 			 	<div class="col-12">
 			 		<div class="security__btn">
-			 			<a href="#">Читать полностью</a>
+			 			<a href="about.html/contacts">Читать полностью</a>
 			 		</div>		 		
 			 	</div>
 			</div>
@@ -563,23 +590,47 @@
 					<div class="mostques__details">
 						<details>
 							<summary>Что такое интернет-эквайринг?</summary>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, cumque.</p>
+							<p>Интернет-эквайринг (от англ. acquire «получать, приобретать,») — перевод денежных средств с вашей карты на счет продавца с участием банка-эквайера и процессинговой компании. Другими словами, оплата с карты на веб-сайте через платежный интерфейс. Банк, выпустивший карту — эмитент, а банк, принявший запрос на транзакцию — банк-эквайер. Банк-эквайер всегда работает с процессинговым центром, который проводит процедуру зачисления или списания средств со счета на счет. За операцию центр взимает комиссию, которая изменяется в зависимости от суммы перевода.</p>
+							<a href="https://chronopay.com/blog/2015/08/21/internet-yekvayring/" target="blank">Подробнее</a>
 						</details>
 						<details>
 							<summary>Как подготовить сайт к приему онлайн-платежей?</summary>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque enim provident accusantium maiores molestias nulla officiis adipisci explicabo.</p>
-						</details>
-						<details>
-							<summary>Запрещенные виды деятельности для приема платежей на сайте?</summary>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							<p>Для приема платежей через интернет, сайт компании должен соответствовать определенным требованиям. Список требований к интернет-площадке формируется не только на основе правил, устанавливаемых финансовыми организациями (такими как банки-эквайеры или карточные организации — Visa, MasterCard и т. д.), но и с учетом критериев, которые делают прием платежей более прибыльным и простым в управлении.</p>
+							<a href="https://chronopay.com/blog/2019/01/21/kak-podgotovit-sayt-k-priemu-platezhe/" target="blank">Подробнее</a>
 						</details>
 						<details>
 							<summary>По каким критериям рассчитывается комиссия?</summary>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum quibusdam provident, tempora veritatis quis voluptates?</p>
+							<p>Комиссия, взимаемая нашей компанией, зависит от нескольких факторов: специфика вашего бизнеса (то есть, какие товары и/или услуги вы продаете), тип платежей, которые вы намерены принимать, обороты Вашего онлайн-бизнеса, а также условия работы банка-эквайрера, в котором у вас будет открыт счет (Interet Merchant Account). Но это всегда процент от ежемесячного оборота вашего интернет-предприятия, который определяется договором между вашей компанией и компанией ChronoPay. Даты выплат определяются положениями договора.</p>
 						</details>
-						<details>
+						<!-- <details>
 							<summary>С какими платформами компания Chronopay имеет интеграцию?</summary>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nihil esse repudiandae impedit maxime amet nobis enim, fugiat, distinctio sequi!</p>
+							<a href="https://chronopay.com/blog/2015/08/21/internet-yekvayring/" target="blank">Подробнее</a>
+						</details> -->
+						<details>
+							<summary>Что следует знать перед подключением?</summary>
+							<p>Оставьте заявку на нашем сайте:Вы получите информационное письмо о том, что Ваша заявка принята. В течении часа по рабочим дням с Вами свяжется наш менеджер, расскажет о дальнейших шагах и будет сопровождать вас течении всего процесса подключения.</p>
+							<p>Предоставьте документы После разговора с вашим менеджером, вам на почту будет выслан доступ в ваш Личный Кабинет. Вам потребуется заполнить анкету и предоставить копии учредительных документов. Более подробно по списку требуемых документов Вас проинформирует ваш менеджер, так как список может варьироваться от банка к банку. При этом весь документооборот происходит через Личный Кабинет – оттуда вы сможете скачать образцы и загрузить заполненные документы.</p>
+							<p>Проведите интеграцию Так же вы получите на почту письмо с технической документацией и тестовыми настройками для интеграции. В то время как вы готовите документы ваши технические специалисты проведут техническую интеграцию с нашей системой.
+							Подпишите договор Подпишите договор и загрузите его скан-копию в Личный Кабинет для регистрацию Торговой Точки в банке-эквайере. Оригиналы потребуется отправить в наш офис почтой.</p>
+							<a href="https://chronopay.com/ru/how-to-connect" target="blank">Подробнее</a>
+						</details>
+						<details>
+							<summary>Какие требования к сайту?</summary>
+							<p>
+								На сайте предприятия должна быть размещена следующая информация:
+								Логотипы всех платежных систем, карты которых принимаются Предприятием в оплату товаров и услуг согласно Договору об обслуживании держателей банковских карт;
+								Полное описание товаров/услуг (товары/услуги должны соответствовать списку товаров/услуг, перечисленных в заявке на регистрацию и в анкете интернет-предприятия);
+								Контактная информация службы поддержки клиентов, включая адрес электронной почты или номер телефона;
+							</p>
+							<p>
+								Валюта операций, установленная эквайрером в Договоре об обслуживании держателей банковских карт (достаточно размещения знака валюбты рядом с ценой товара или услуги);
+								Условия и порядок возмещения/возврата денежных средств и отмены транзакции или сообщение типа «товары возврату и обмену не подлежат», если иное не предусмотрено правилами торгово-сервисного предприятия;
+							</p>
+							<p>
+								Сайт не должен иметь пустых, либо «битых» страниц, контент должен быть размещен логично и последовательно, в процессе покупки не должно быть переходов на внешние сайты с другими адресами кроме случаев, когда такие переходы следуют из логики контента и процедуры покупки;
+							</p>
+							<a href="https://chronopay.com/ru/requirements" target="blank">Подробнее</a>
 						</details>
 					</div>
 				</div>
@@ -738,8 +789,9 @@
 			</div>
 
 		</footer>
-				
+  	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCxoYbOZC4YYVEMGtiZX9gTL__v21oVJzE&callback=initMap"
+  		type="text/javascript">
+	</script>
 	<script src="js/scripts.min.js"></script>
-
 </body>
 </html>

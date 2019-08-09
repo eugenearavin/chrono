@@ -23,7 +23,8 @@ $('.trust__slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: false,
-    arrows: false,
+    arrows: true,
+    dots: true,
     mobileFirst: true,
     
   });
@@ -176,7 +177,7 @@ $(".popup").magnificPopup();
     
 }());
 
-function openCity(evt, cityName) {
+function openTab(evt, tabName) {
   // Declare all variables
   var i, tabcontent, tablinks;
 
@@ -193,7 +194,7 @@ function openCity(evt, cityName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();
@@ -204,6 +205,7 @@ $(document).ready(function(){
     slidesToScroll: 3,
     infinite: false,
     arrows: false,
+    dots: false,
     mobileFirst: true,
     responsive: [
     {
@@ -242,5 +244,6 @@ $(document).ready(function(){
   ]
   });
 });
+
 
 
